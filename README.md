@@ -51,6 +51,8 @@ docker exec -it jenkins bash
 cd /var/jenkins_home/secrets/cat initialAdminPassword
 ```
 
+Ingresar a localhost:8090 y colocar la password. Instalar los plugins sugeridos.
+
 ### Link a la imagen de [Docker](https://hub.docker.com/repository/docker/santidotpy/isa-final/general)
 
 > [!NOTE]  
