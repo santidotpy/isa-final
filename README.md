@@ -1,12 +1,11 @@
 # Final para la materia Ingeniería de Software Aplicada
 
-
 ### Pasos
 
 1. Crear un proyecto con JHipster basado en algun modelo de este [repositorio](https://github.com/jhipster/jdl-samples). En este caso se usará el modelo de la libreria.
 
 ```bash
-jhipster jdl libreria.jh 
+jhipster jdl libreria.jh
 # --client-framework vue # para aclarar que framework de front-end se usará
 ```
 
@@ -18,13 +17,11 @@ jhipster jdl libreria.jh
 
 3. Para probar los tests de unidad ir a la carpeta `src/test/` y correr los tests de unidad.
 
-
 4. Para probar los tests E2E ir a la carpeta `src/test/javascript` y correr los tests E2E con el siguiente comando. Es necesario tener el proyecto corriendo.
 
 ```bash
 npm run cypress
 ```
-
 
 ### Para probar lo de ELK
 
@@ -45,3 +42,5 @@ docker-compose up
 ```
 
 5. Luego ir a `http://localhost:5601/` con los credeciales `elastic` y `changeme` y crear un indice con el nombre `logstash-*` y seleccionar el campo `@timestamp` como campo de tiempo.
+
+### Link a la imagen de [Docker](https://hub.docker.com/repository/docker/santidotpy/isa-final/general)
