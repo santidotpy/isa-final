@@ -43,4 +43,18 @@ docker-compose up
 
 5. Luego ir a `http://localhost:5601/` con los credeciales `elastic` y `changeme` y crear un indice con el nombre `logstash-*` y seleccionar el campo `@timestamp` como campo de tiempo.
 
+## Para ingresar a Jenkins
+
+```bash
+docker container run -d --name jenkins -p 8090:8080 -p 50000:50000 jenkins/jenkins
+docker exec -it jenkins bash
+cd /var/jenkins_home/secrets/cat initialAdminPassword
+```
+
 ### Link a la imagen de [Docker](https://hub.docker.com/repository/docker/santidotpy/isa-final/general)
+
+> [!NOTE]  
+> En mi caso tuve que crear una Access Token en DockerHub para usar como password en Jenkins y asi poder subir la imagen
+
+![alt text](image.png)
+![alt text](image-1.png)
