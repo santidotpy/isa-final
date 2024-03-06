@@ -579,7 +579,7 @@
 
                         <to>
                         
-                            <image>santiagograffigna/final_isa_library:latest</image>
+                            <image>santidotpy/isa-final:latest</image>
                             <tags>
                                 <tag>${project.version}</tag>
                                 <tag>latest</tag>
